@@ -45,7 +45,7 @@ public class Add extends AppCompatActivity {
 
         boolean result = db.addIncome( AddIncome , Note , Category );
         if(result == true){
-            Toast.makeText(getApplicationContext(),"Data Added ",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Data added ",Toast.LENGTH_LONG).show();
             Intent intent = new Intent(Add.this,My_Wallet_Repot.class);
             startActivity(intent);
         }
