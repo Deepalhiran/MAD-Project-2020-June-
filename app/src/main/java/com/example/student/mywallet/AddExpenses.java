@@ -12,7 +12,7 @@ import android.widget.Toast;
 import Database.WalletDBhelper;
 import Model.AddExpense;
 
-public class AddExpenses extends AppCompatActivity {
+public class  AddExpenses extends AppCompatActivity {
 
     EditText cost;
     ImageButton imaBtn;

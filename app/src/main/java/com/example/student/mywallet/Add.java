@@ -50,7 +50,7 @@ public class Add extends AppCompatActivity {
             startActivity(intent);
         }
         else{
-            Toast.makeText(getApplicationContext(),"Data failed",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Data failled",Toast.LENGTH_LONG).show();
         }
 
     }
